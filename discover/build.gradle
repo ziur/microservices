@@ -1,0 +1,18 @@
+
+jar {
+    baseName = 'discover'
+}
+
+springBoot {
+    executable = true
+}
+
+bootRun {
+    systemProperties System.properties
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter")
+    compile 'org.springframework.cloud:spring-cloud-starter-eureka'
+    compile 'org.springframework.cloud:spring-cloud-starter-eureka-server'
+}

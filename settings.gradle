@@ -1,0 +1,6 @@
+rootProject.name = 'cloud'
+
+include 'configuration'
+include 'discover'
+include 'notification'
+include 'notification-gateway'
